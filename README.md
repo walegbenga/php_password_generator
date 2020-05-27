@@ -31,3 +31,9 @@ include __DIR__ . '/vendor/autoload.php';// Generally, this should be the relati
 $passGen = new \SecurePassword\PasswordGenerator($source, 4, CACHE_DIR);
 echo $passGen->generate();
 ```
+
+### NB
+
+The above example is just a basic usage of using the library.
+
+Remember, in programming, your imagination is your limitation
