@@ -23,3 +23,11 @@ You can now use the library to generate the Random password for your users like 
 $passGen = new \SecurePassword\PasswordGenerator($source, 4, CACHE_DIR);
 echo $passGen->generate();
 ```
+
+## Complete example
+
+```
+include __DIR__ . '/vendor/autoload.php';// Generally, this should be the relative path to the **vendor** folder
+$passGen = new \SecurePassword\PasswordGenerator($source, 4, CACHE_DIR);
+echo $passGen->generate();
+```
