@@ -32,8 +32,16 @@ $passGen = new \SecurePassword\PasswordGenerator($source, 4, CACHE_DIR);
 echo $passGen->generate();
 ```
 
+### Where the library is useful
+
+You can use this library to
+
+- Generate hard to guess passwords for your users
+- Use it to generate a temporary passwords for users who forgot there passsword
+- Use it to generate a token for users
+- Use it to generate Serial Number(sn) for your users and so on and so on
+  Remember, in programming, your imagination is your limitation
+
 ### NB
 
 The above example is just a basic usage of using the library.
-
-Remember, in programming, your imagination is your limitation
