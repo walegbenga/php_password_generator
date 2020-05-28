@@ -11,8 +11,8 @@
             "SecurePassword\\": "SecurePassword/"
         },
         "classmap": [
-
-        ] ecurePassword
+            "SecurePassword/"
+        ]
     },
     "autoload-dev":
     {
