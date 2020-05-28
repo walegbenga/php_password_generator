@@ -1,5 +1,6 @@
 {
     "name": "passwordgenerator/password-generator",
+    "license": "MIT",
     "authors": [
     {
         "name": "Gbenga Ogunbule",
